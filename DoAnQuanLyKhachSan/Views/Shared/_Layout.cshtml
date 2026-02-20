@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Hệ Thống Quản Lý Khách Sạn Impeccable</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Impeccable CSS -->
+    <link href="~/Content/site-impeccable.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="app-shell">
+    <!-- Sidebar -->
+    <aside class="app-sidebar">
+        <div class="sidebar-header">
+            <a href="@Url.Action("Index", "TongQuan")" class="sidebar-brand">
+                <i class="fa-solid fa-hotel"></i>
+                <span>LUXURY HOTEL</span>
+            </a>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <div class="nav-group-title">Tổng quan</div>
+            <a href="@Url.Action("Index", "TongQuan")" class="nav-link-item @(ViewBag.ActiveTab == "TongQuan" ? "active" : "")">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Dashboard Báo Cáo</span>
+            </a>
+            
+            <div class="nav-group-title">Quản Lý Phòng & Đặt Phòng</div>
+            <a href="@Url.Action("Index", "Rooms")" class="nav-link-item @(ViewBag.ActiveTab == "Rooms" ? "active" : "")">
+                <i class="fa-solid fa-bed"></i>
+                <span>Sơ Đồ Phòng</span>
+            </a>
+            <a href="@Url.Action("Index", "Bookings")" class="nav-link-item @(ViewBag.ActiveTab == "Bookings" ? "active" : "")">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Danh Sách Đặt Phòng</span>
+            </a>
+            <a href="@Url.Action("Index", "Customers")" class="nav-link-item @(ViewBag.ActiveTab == "Customers" ? "active" : "")">
+                <i class="fa-solid fa-users"></i>
+                <span>Khách Hàng</span>
+            </a>
+            
+            <div class="nav-group-title">Dịch Vụ & Nhân Sự</div>
+            <a href="@Url.Action("Index", "Services")" class="nav-link-item @(ViewBag.ActiveTab == "Services" ? "active" : "")">
+                <i class="fa-solid fa-concierge-bell"></i>
+                <span>Dịch Vụ Khách Sạn</span>
+            </a>
+            <a href="@Url.Action("Index", "Staffs")" class="nav-link-item @(ViewBag.ActiveTab == "Staffs" ? "active" : "")">
+                <i class="fa-solid fa-id-card"></i>
+                <span>Nhân Viên</span>
+            </a>
+            <a href="@Url.Action("Index", "Floors")" class="nav-link-item @(ViewBag.ActiveTab == "Floors" ? "active" : "")">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Tầng Khách Sạn</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="app-main">
+        <header class="app-header">
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm nhanh phòng, khách hàng, mã đặt..." />
+            </div>
+            
+            <div class="header-actions">
+                <button class="btn-icon" id="themeToggle" title="Đổi giao diện">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="dropdown">
+                    <button class="btn-icon" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                        <li><h6 class="dropdown-header">Thông báo mới</h6></li>
+                        <li><a class="dropdown-item" href="#">Có 2 lượt đặt phòng mới</a></li>
+                        <li><a class="dropdown-item" href="#">Phòng 302 cần dọn dẹp</a></li>
+                    </ul>
+                </div>
+                <a href="@Url.Action("Create", "Bookings")" class="btn btn-primary rounded-pill px-4 font-weight-bold">
+                    <i class="fa-solid fa-plus me-1"></i> Đặt Phòng Mới
+                </a>
+            </div>
+        </header>
+
+        <div class="app-content">
+            @RenderBody()
+        </div>
+    </main>
+</div>
+
+<!-- Floating AI Concierge Widget -->
+<div class="ai-chatbot-btn" id="aiChatBtn" title="Trợ Lý AI Khách Sạn">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+<div class="ai-chat-box" id="aiChatBox">
+    <div class="ai-chat-header">
+        <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-robot me-1"></i>
+            <div>
+                <strong class="d-block font-size-sm">Trợ Lý AI Khách Sạn</strong>
+                <small class="opacity-75" style="font-size:0.75rem;">Trực tuyến 24/7</small>
+            </div>
+        </div>
+        <button class="btn-close btn-close-white" id="aiChatClose"></button>
+    </div>
+    <div class="ai-chat-body" id="chatBody">
+        <div class="chat-msg bot">
+            Xin chào! Tôi có thể giúp bạn kiểm tra phòng trống, bảng giá phòng hoặc các dịch vụ tại khách sạn.
+        </div>
+    </div>
+    <div class="ai-chat-footer">
+        <input type="text" id="chatInput" placeholder="Nhập câu hỏi của bạn..." />
+        <button class="btn btn-primary rounded-circle px-3" id="chatSendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Dark/Light Theme Switcher
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        themeToggle.innerHTML = newTheme === 'dark' ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+    });
+
+    // AI Chat Widget Script
+    const aiChatBtn = document.getElementById('aiChatBtn');
+    const aiChatBox = document.getElementById('aiChatBox');
+    const aiChatClose = document.getElementById('aiChatClose');
+    const chatInput = document.getElementById('chatInput');
+    const chatSendBtn = document.getElementById('chatSendBtn');
+    const chatBody = document.getElementById('chatBody');
+
+    aiChatBtn.addEventListener('click', () => aiChatBox.classList.toggle('open'));
+    aiChatClose.addEventListener('click', () => aiChatBox.classList.remove('open'));
+
+    function sendChatMessage() {
+        const text = chatInput.value.trim();
+        if (!text) return;
+
+        chatBody.innerHTML += `<div class="chat-msg user">${text}</div>`;
+        chatInput.value = '';
+        chatBody.scrollTop = chatBody.scrollHeight;
+
+        $.post('/Chatbot/Ask', { message: text }, function (data) {
+            if (data && data.success) {
+                chatBody.innerHTML += `<div class="chat-msg bot">${data.reply}</div>`;
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }
+        });
+    }
+
+    chatSendBtn.addEventListener('click', sendChatMessage);
+    chatInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') sendChatMessage();
+    });
+</script>
+
+@RenderSection("scripts", required: false)
+</body>
+</html>
