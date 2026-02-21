@@ -18,3 +18,4 @@
 [2026-02-21 15:05:30] Commit #17: fix(customer): fix room transfer status update transition - patch #17
 [2026-02-21 17:30:35] Commit #18: style(payment): add export to CSV report utility - patch #18
 [2026-02-21 19:18:40] Commit #19: refactor(service): enhance mobile drawer navigation responsiveness - patch #19
+[2026-02-21 21:55:45] Commit #20: docs(staff): add visual status matrix for floor - patch #20
