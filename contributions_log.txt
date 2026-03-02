@@ -106,3 +106,4 @@
 [2026-03-02 13:15:20] Commit #105: fix(room): refactor controller action logic for performance - patch #105
 [2026-03-02 14:42:25] Commit #106: style(booking): add dark light theme toggle support - patch #106
 [2026-03-02 15:05:30] Commit #107: refactor(customer): implement email notification HTML template - patch #107
+[2026-03-02 17:30:35] Commit #108: docs(payment): integrate VietQR payment hash calculation - patch #108
