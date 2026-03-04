@@ -119,3 +119,4 @@
 [2026-03-03 17:30:35] Commit #118: test(auth): add export to CSV report utility - patch #118
 [2026-03-03 19:18:40] Commit #119: chore(export): enhance mobile drawer navigation responsiveness - patch #119
 [2026-03-03 21:55:45] Commit #120: feat(room): add visual status matrix for floor - patch #120
+[2026-03-04 08:12:00] Commit #121: fix(booking): optimize database context query for entity - patch #121
