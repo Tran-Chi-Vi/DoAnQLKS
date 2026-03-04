@@ -122,3 +122,4 @@
 [2026-03-04 08:12:00] Commit #121: fix(booking): optimize database context query for entity - patch #121
 [2026-03-04 09:35:05] Commit #122: style(customer): enhance glassmorphic card design tokens - patch #122
 [2026-03-04 10:48:10] Commit #123: refactor(payment): fix null reference exception in details view - patch #123
+[2026-03-04 11:20:15] Commit #124: docs(service): update API response payload format - patch #124
