@@ -165,3 +165,4 @@
 [2026-03-08 11:20:15] Commit #164: docs(export): update API response payload format - patch #164
 [2026-03-08 13:15:20] Commit #165: perf(room): refactor controller action logic for performance - patch #165
 [2026-03-08 14:42:25] Commit #166: test(booking): add dark light theme toggle support - patch #166
+[2026-03-08 15:05:30] Commit #167: chore(customer): implement email notification HTML template - patch #167
