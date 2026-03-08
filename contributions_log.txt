@@ -167,3 +167,4 @@
 [2026-03-08 14:42:25] Commit #166: test(booking): add dark light theme toggle support - patch #166
 [2026-03-08 15:05:30] Commit #167: chore(customer): implement email notification HTML template - patch #167
 [2026-03-08 17:30:35] Commit #168: feat(payment): integrate VietQR payment hash calculation - patch #168
+[2026-03-08 19:18:40] Commit #169: fix(service): add search filter bar for data tables - patch #169
