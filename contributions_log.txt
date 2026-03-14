@@ -224,3 +224,4 @@
 [2026-03-14 10:48:10] Commit #223: chore(auth): fix null reference exception in details view - patch #223
 [2026-03-14 11:20:15] Commit #224: feat(export): update API response payload format - patch #224
 [2026-03-14 13:15:20] Commit #225: fix(room): refactor controller action logic for performance - patch #225
+[2026-03-14 14:42:25] Commit #226: style(booking): add dark light theme toggle support - patch #226
