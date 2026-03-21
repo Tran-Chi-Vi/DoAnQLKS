@@ -298,3 +298,4 @@
 [2026-03-21 15:05:30] Commit #297: fix(vnpay): fix room transfer status update transition - patch #297
 [2026-03-21 17:30:35] Commit #298: style(auth): add export to CSV report utility - patch #298
 [2026-03-21 19:18:40] Commit #299: refactor(export): enhance mobile drawer navigation responsiveness - patch #299
+[2026-03-21 21:55:45] Commit #300: docs(room): add visual status matrix for floor - patch #300
