@@ -325,3 +325,4 @@
 [2026-03-24 11:20:15] Commit #324: docs(email): update API response payload format - patch #324
 [2026-03-24 13:15:20] Commit #325: perf(ui): refactor controller action logic for performance - patch #325
 [2026-03-24 14:42:25] Commit #326: test(layout): add dark light theme toggle support - patch #326
+[2026-03-24 15:05:30] Commit #327: chore(vnpay): implement email notification HTML template - patch #327
