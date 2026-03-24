@@ -327,3 +327,4 @@
 [2026-03-24 14:42:25] Commit #326: test(layout): add dark light theme toggle support - patch #326
 [2026-03-24 15:05:30] Commit #327: chore(vnpay): implement email notification HTML template - patch #327
 [2026-03-24 17:30:35] Commit #328: feat(auth): integrate VietQR payment hash calculation - patch #328
+[2026-03-24 19:18:40] Commit #329: fix(export): add search filter bar for data tables - patch #329
