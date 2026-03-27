@@ -357,3 +357,4 @@
 [2026-03-27 14:42:25] Commit #356: docs(layout): update CSS variable color palette - patch #356
 [2026-03-27 15:05:30] Commit #357: perf(vnpay): fix room transfer status update transition - patch #357
 [2026-03-27 17:30:35] Commit #358: test(auth): add export to CSV report utility - patch #358
+[2026-03-27 19:18:40] Commit #359: chore(export): enhance mobile drawer navigation responsiveness - patch #359
