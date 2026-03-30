@@ -384,3 +384,4 @@
 [2026-03-30 10:48:10] Commit #383: chore(chatbot): fix null reference exception in details view - patch #383
 [2026-03-30 11:20:15] Commit #384: feat(email): update API response payload format - patch #384
 [2026-03-30 13:15:20] Commit #385: fix(ui): refactor controller action logic for performance - patch #385
+[2026-03-30 14:42:25] Commit #386: style(layout): add dark light theme toggle support - patch #386
