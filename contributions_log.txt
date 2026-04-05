@@ -448,3 +448,4 @@
 [2026-04-05 15:05:30] Commit #447: chore(vnpay): implement email notification HTML template - patch #447
 [2026-04-05 17:30:35] Commit #448: feat(auth): integrate VietQR payment hash calculation - patch #448
 [2026-04-05 19:18:40] Commit #449: fix(export): add search filter bar for data tables - patch #449
+[2026-04-05 21:55:45] Commit #450: style(room): update bootstrap responsive breakpoint layout - patch #450
