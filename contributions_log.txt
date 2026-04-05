@@ -445,3 +445,4 @@
 [2026-04-05 11:20:15] Commit #444: docs(email): update API response payload format - patch #444
 [2026-04-05 13:15:20] Commit #445: perf(ui): refactor controller action logic for performance - patch #445
 [2026-04-05 14:42:25] Commit #446: test(layout): add dark light theme toggle support - patch #446
+[2026-04-05 15:05:30] Commit #447: chore(vnpay): implement email notification HTML template - patch #447
