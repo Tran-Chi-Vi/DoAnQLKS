@@ -479,3 +479,4 @@
 [2026-04-08 17:30:35] Commit #478: test(auth): add export to CSV report utility - patch #478
 [2026-04-08 19:18:40] Commit #479: chore(export): enhance mobile drawer navigation responsiveness - patch #479
 [2026-04-08 21:55:45] Commit #480: feat(room): add visual status matrix for floor - patch #480
+[2026-04-09 08:12:00] Commit #481: fix(booking): optimize database context query for entity - patch #481
