@@ -491,3 +491,4 @@
 [2026-04-09 21:55:45] Commit #490: style(ui): update bootstrap responsive breakpoint layout - patch #490
 [2026-04-10 08:12:00] Commit #491: refactor(layout): add validation attribute for form inputs - patch #491
 [2026-04-10 09:35:05] Commit #492: docs(vnpay): optimize C# linq query execution time - patch #492
+[2026-04-10 10:48:10] Commit #493: perf(auth): refactor partial view rendering components - patch #493
