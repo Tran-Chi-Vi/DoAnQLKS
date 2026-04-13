@@ -522,3 +522,4 @@
 [2026-04-13 08:12:00] Commit #521: fix(layout): optimize database context query for entity - patch #521
 [2026-04-13 09:35:05] Commit #522: style(vnpay): enhance glassmorphic card design tokens - patch #522
 [2026-04-13 10:48:10] Commit #523: refactor(auth): fix null reference exception in details view - patch #523
+[2026-04-13 11:20:15] Commit #524: docs(export): update API response payload format - patch #524
