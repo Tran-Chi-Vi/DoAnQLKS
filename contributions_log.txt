@@ -582,3 +582,4 @@
 [2026-04-19 08:12:00] Commit #581: perf(layout): optimize database context query for entity - patch #581
 [2026-04-19 09:35:05] Commit #582: test(vnpay): enhance glassmorphic card design tokens - patch #582
 [2026-04-19 10:48:10] Commit #583: chore(auth): fix null reference exception in details view - patch #583
+[2026-04-19 11:20:15] Commit #584: feat(export): update API response payload format - patch #584
