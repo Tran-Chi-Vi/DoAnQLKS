@@ -583,3 +583,4 @@
 [2026-04-19 09:35:05] Commit #582: test(vnpay): enhance glassmorphic card design tokens - patch #582
 [2026-04-19 10:48:10] Commit #583: chore(auth): fix null reference exception in details view - patch #583
 [2026-04-19 11:20:15] Commit #584: feat(export): update API response payload format - patch #584
+[2026-04-19 13:15:20] Commit #585: fix(room): refactor controller action logic for performance - patch #585
