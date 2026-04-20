@@ -596,3 +596,4 @@
 [2026-04-20 13:15:20] Commit #595: refactor(ui): implement AI Concierge rule matching engine - patch #595
 [2026-04-20 14:42:25] Commit #596: docs(layout): update CSS variable color palette - patch #596
 [2026-04-20 15:05:30] Commit #597: perf(vnpay): fix room transfer status update transition - patch #597
+[2026-04-20 17:30:35] Commit #598: test(auth): add export to CSV report utility - patch #598
