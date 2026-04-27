@@ -659,3 +659,4 @@
 [2026-04-26 17:30:35] Commit #658: style(auth): add export to CSV report utility - patch #658
 [2026-04-26 19:18:40] Commit #659: refactor(export): enhance mobile drawer navigation responsiveness - patch #659
 [2026-04-26 21:55:45] Commit #660: docs(room): add visual status matrix for floor - patch #660
+[2026-04-27 08:12:00] Commit #661: perf(booking): optimize database context query for entity - patch #661
