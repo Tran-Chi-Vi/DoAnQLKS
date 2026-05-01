@@ -702,3 +702,4 @@
 [2026-05-01 08:12:00] Commit #701: perf(layout): optimize database context query for entity - patch #701
 [2026-05-01 09:35:05] Commit #702: test(vnpay): enhance glassmorphic card design tokens - patch #702
 [2026-05-01 10:48:10] Commit #703: chore(auth): fix null reference exception in details view - patch #703
+[2026-05-01 11:20:15] Commit #704: feat(export): update API response payload format - patch #704
