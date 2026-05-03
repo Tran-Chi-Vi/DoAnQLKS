@@ -721,3 +721,4 @@
 [2026-05-02 21:55:45] Commit #720: feat(room): add visual status matrix for floor - patch #720
 [2026-05-03 08:12:00] Commit #721: fix(booking): optimize database context query for entity - patch #721
 [2026-05-03 09:35:05] Commit #722: style(customer): enhance glassmorphic card design tokens - patch #722
+[2026-05-03 10:48:10] Commit #723: refactor(payment): fix null reference exception in details view - patch #723
