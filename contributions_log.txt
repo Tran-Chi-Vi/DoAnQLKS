@@ -737,3 +737,4 @@
 [2026-05-04 14:42:25] Commit #736: feat(booking): update CSS variable color palette - patch #736
 [2026-05-04 15:05:30] Commit #737: fix(customer): fix room transfer status update transition - patch #737
 [2026-05-04 17:30:35] Commit #738: style(payment): add export to CSV report utility - patch #738
+[2026-05-04 19:18:40] Commit #739: refactor(service): enhance mobile drawer navigation responsiveness - patch #739
