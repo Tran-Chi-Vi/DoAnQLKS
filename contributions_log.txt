@@ -736,3 +736,4 @@
 [2026-05-04 13:15:20] Commit #735: chore(room): implement AI Concierge rule matching engine - patch #735
 [2026-05-04 14:42:25] Commit #736: feat(booking): update CSS variable color palette - patch #736
 [2026-05-04 15:05:30] Commit #737: fix(customer): fix room transfer status update transition - patch #737
+[2026-05-04 17:30:35] Commit #738: style(payment): add export to CSV report utility - patch #738
