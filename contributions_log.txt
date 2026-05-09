@@ -782,3 +782,4 @@
 [2026-05-09 08:12:00] Commit #781: perf(booking): optimize database context query for entity - patch #781
 [2026-05-09 09:35:05] Commit #782: test(customer): enhance glassmorphic card design tokens - patch #782
 [2026-05-09 10:48:10] Commit #783: chore(payment): fix null reference exception in details view - patch #783
+[2026-05-09 11:20:15] Commit #784: feat(service): update API response payload format - patch #784
