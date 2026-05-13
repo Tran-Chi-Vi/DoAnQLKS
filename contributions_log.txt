@@ -825,3 +825,4 @@
 [2026-05-13 11:20:15] Commit #824: feat(export): update API response payload format - patch #824
 [2026-05-13 13:15:20] Commit #825: fix(room): refactor controller action logic for performance - patch #825
 [2026-05-13 14:42:25] Commit #826: style(booking): add dark light theme toggle support - patch #826
+[2026-05-13 15:05:30] Commit #827: refactor(customer): implement email notification HTML template - patch #827
