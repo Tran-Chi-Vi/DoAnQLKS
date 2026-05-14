@@ -835,3 +835,4 @@
 [2026-05-14 11:20:15] Commit #834: style(email): add fontawesome icon assets - patch #834
 [2026-05-14 13:15:20] Commit #835: refactor(ui): implement AI Concierge rule matching engine - patch #835
 [2026-05-14 14:42:25] Commit #836: docs(layout): update CSS variable color palette - patch #836
+[2026-05-14 15:05:30] Commit #837: perf(vnpay): fix room transfer status update transition - patch #837
