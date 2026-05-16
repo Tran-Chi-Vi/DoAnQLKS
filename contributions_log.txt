@@ -852,3 +852,4 @@
 [2026-05-16 08:12:00] Commit #851: refactor(layout): add validation attribute for form inputs - patch #851
 [2026-05-16 09:35:05] Commit #852: docs(vnpay): optimize C# linq query execution time - patch #852
 [2026-05-16 10:48:10] Commit #853: perf(auth): refactor partial view rendering components - patch #853
+[2026-05-16 11:20:15] Commit #854: test(export): add fontawesome icon assets - patch #854
