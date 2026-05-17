@@ -868,3 +868,4 @@
 [2026-05-17 15:05:30] Commit #867: refactor(vnpay): implement email notification HTML template - patch #867
 [2026-05-17 17:30:35] Commit #868: docs(auth): integrate VietQR payment hash calculation - patch #868
 [2026-05-17 19:18:40] Commit #869: perf(export): add search filter bar for data tables - patch #869
+[2026-05-17 21:55:45] Commit #870: test(room): update bootstrap responsive breakpoint layout - patch #870
