@@ -897,3 +897,4 @@
 [2026-05-20 14:42:25] Commit #896: feat(layout): update CSS variable color palette - patch #896
 [2026-05-20 15:05:30] Commit #897: fix(vnpay): fix room transfer status update transition - patch #897
 [2026-05-20 17:30:35] Commit #898: style(auth): add export to CSV report utility - patch #898
+[2026-05-20 19:18:40] Commit #899: refactor(export): enhance mobile drawer navigation responsiveness - patch #899
