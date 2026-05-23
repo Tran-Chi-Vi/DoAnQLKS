@@ -928,3 +928,4 @@
 [2026-05-23 15:05:30] Commit #927: chore(vnpay): implement email notification HTML template - patch #927
 [2026-05-23 17:30:35] Commit #928: feat(auth): integrate VietQR payment hash calculation - patch #928
 [2026-05-23 19:18:40] Commit #929: fix(export): add search filter bar for data tables - patch #929
+[2026-05-23 21:55:45] Commit #930: style(room): update bootstrap responsive breakpoint layout - patch #930
