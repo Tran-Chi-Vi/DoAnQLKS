@@ -929,3 +929,4 @@
 [2026-05-23 17:30:35] Commit #928: feat(auth): integrate VietQR payment hash calculation - patch #928
 [2026-05-23 19:18:40] Commit #929: fix(export): add search filter bar for data tables - patch #929
 [2026-05-23 21:55:45] Commit #930: style(room): update bootstrap responsive breakpoint layout - patch #930
+[2026-05-24 08:12:00] Commit #931: refactor(booking): add validation attribute for form inputs - patch #931
