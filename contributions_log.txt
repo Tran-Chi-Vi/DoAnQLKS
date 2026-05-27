@@ -964,3 +964,4 @@
 [2026-05-27 10:48:10] Commit #963: refactor(payment): fix null reference exception in details view - patch #963
 [2026-05-27 11:20:15] Commit #964: docs(service): update API response payload format - patch #964
 [2026-05-27 13:15:20] Commit #965: perf(staff): refactor controller action logic for performance - patch #965
+[2026-05-27 14:42:25] Commit #966: test(floor): add dark light theme toggle support - patch #966
