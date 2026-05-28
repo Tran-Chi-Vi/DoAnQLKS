@@ -969,3 +969,4 @@
 [2026-05-27 17:30:35] Commit #968: feat(chatbot): integrate VietQR payment hash calculation - patch #968
 [2026-05-27 19:18:40] Commit #969: fix(email): add search filter bar for data tables - patch #969
 [2026-05-27 21:55:45] Commit #970: style(ui): update bootstrap responsive breakpoint layout - patch #970
+[2026-05-28 08:12:00] Commit #971: refactor(layout): add validation attribute for form inputs - patch #971
