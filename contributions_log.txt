@@ -979,3 +979,4 @@
 [2026-05-28 17:30:35] Commit #978: style(payment): add export to CSV report utility - patch #978
 [2026-05-28 19:18:40] Commit #979: refactor(service): enhance mobile drawer navigation responsiveness - patch #979
 [2026-05-28 21:55:45] Commit #980: docs(staff): add visual status matrix for floor - patch #980
+[2026-05-29 08:12:00] Commit #981: perf(floor): optimize database context query for entity - patch #981
