@@ -1030,3 +1030,4 @@
 [2026-06-02 19:18:40] Commit #1029: perf(email): add search filter bar for data tables - patch #1029
 [2026-06-02 21:55:45] Commit #1030: test(ui): update bootstrap responsive breakpoint layout - patch #1030
 [2026-06-03 08:12:00] Commit #1031: chore(layout): add validation attribute for form inputs - patch #1031
+[2026-06-03 09:35:05] Commit #1032: feat(vnpay): optimize C# linq query execution time - patch #1032
