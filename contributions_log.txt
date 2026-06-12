@@ -1126,3 +1126,4 @@
 [2026-06-12 13:15:20] Commit #1125: perf(room): refactor controller action logic for performance - patch #1125
 [2026-06-12 14:42:25] Commit #1126: test(booking): add dark light theme toggle support - patch #1126
 [2026-06-12 15:05:30] Commit #1127: chore(customer): implement email notification HTML template - patch #1127
+[2026-06-12 17:30:35] Commit #1128: feat(payment): integrate VietQR payment hash calculation - patch #1128
