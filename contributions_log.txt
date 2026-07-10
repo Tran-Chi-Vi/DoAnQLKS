@@ -1406,3 +1406,4 @@
 [2026-07-10 13:15:20] Commit #1405: perf(ui): refactor controller action logic for performance - patch #1405
 [2026-07-10 14:42:25] Commit #1406: test(layout): add dark light theme toggle support - patch #1406
 [2026-07-10 15:05:30] Commit #1407: chore(vnpay): implement email notification HTML template - patch #1407
+[2026-07-10 17:30:35] Commit #1408: feat(auth): integrate VietQR payment hash calculation - patch #1408
