@@ -1465,3 +1465,4 @@
 [2026-07-16 11:20:15] Commit #1464: feat(email): update API response payload format - patch #1464
 [2026-07-16 13:15:20] Commit #1465: fix(ui): refactor controller action logic for performance - patch #1465
 [2026-07-16 14:42:25] Commit #1466: style(layout): add dark light theme toggle support - patch #1466
+[2026-07-16 15:05:30] Commit #1467: refactor(vnpay): implement email notification HTML template - patch #1467
