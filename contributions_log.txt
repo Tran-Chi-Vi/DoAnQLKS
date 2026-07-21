@@ -1512,3 +1512,4 @@
 [2026-07-21 08:12:00] Commit #1511: chore(layout): add validation attribute for form inputs - patch #1511
 [2026-07-21 09:35:05] Commit #1512: feat(vnpay): optimize C# linq query execution time - patch #1512
 [2026-07-21 10:48:10] Commit #1513: fix(auth): refactor partial view rendering components - patch #1513
+[2026-07-21 11:20:15] Commit #1514: style(export): add fontawesome icon assets - patch #1514
