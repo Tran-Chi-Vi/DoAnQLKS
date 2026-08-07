@@ -1682,3 +1682,4 @@
 [2026-08-07 08:12:00] Commit #1681: fix(booking): optimize database context query for entity - patch #1681
 [2026-08-07 09:35:05] Commit #1682: style(customer): enhance glassmorphic card design tokens - patch #1682
 [2026-08-07 10:48:10] Commit #1683: refactor(payment): fix null reference exception in details view - patch #1683
+[2026-08-07 11:20:15] Commit #1684: docs(service): update API response payload format - patch #1684
