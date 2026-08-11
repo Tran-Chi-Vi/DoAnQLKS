@@ -1721,3 +1721,4 @@
 [2026-08-10 21:55:45] Commit #1720: feat(ui): add visual status matrix for floor - patch #1720
 [2026-08-11 08:12:00] Commit #1721: fix(layout): optimize database context query for entity - patch #1721
 [2026-08-11 09:35:05] Commit #1722: style(vnpay): enhance glassmorphic card design tokens - patch #1722
+[2026-08-11 10:48:10] Commit #1723: refactor(auth): fix null reference exception in details view - patch #1723
