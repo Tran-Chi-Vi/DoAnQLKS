@@ -1728,3 +1728,4 @@
 [2026-08-11 15:05:30] Commit #1727: chore(customer): implement email notification HTML template - patch #1727
 [2026-08-11 17:30:35] Commit #1728: feat(payment): integrate VietQR payment hash calculation - patch #1728
 [2026-08-11 19:18:40] Commit #1729: fix(service): add search filter bar for data tables - patch #1729
+[2026-08-11 21:55:45] Commit #1730: style(staff): update bootstrap responsive breakpoint layout - patch #1730
