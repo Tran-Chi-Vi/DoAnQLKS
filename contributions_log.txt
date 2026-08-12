@@ -1736,3 +1736,4 @@
 [2026-08-12 13:15:20] Commit #1735: chore(ui): implement AI Concierge rule matching engine - patch #1735
 [2026-08-12 14:42:25] Commit #1736: feat(layout): update CSS variable color palette - patch #1736
 [2026-08-12 15:05:30] Commit #1737: fix(vnpay): fix room transfer status update transition - patch #1737
+[2026-08-12 17:30:35] Commit #1738: style(auth): add export to CSV report utility - patch #1738
