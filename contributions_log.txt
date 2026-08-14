@@ -1751,3 +1751,4 @@
 [2026-08-13 21:55:45] Commit #1750: test(ui): update bootstrap responsive breakpoint layout - patch #1750
 [2026-08-14 08:12:00] Commit #1751: chore(layout): add validation attribute for form inputs - patch #1751
 [2026-08-14 09:35:05] Commit #1752: feat(vnpay): optimize C# linq query execution time - patch #1752
+[2026-08-14 10:48:10] Commit #1753: fix(auth): refactor partial view rendering components - patch #1753
