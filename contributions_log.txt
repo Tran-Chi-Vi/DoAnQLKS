@@ -1759,3 +1759,4 @@
 [2026-08-14 17:30:35] Commit #1758: test(payment): add export to CSV report utility - patch #1758
 [2026-08-14 19:18:40] Commit #1759: chore(service): enhance mobile drawer navigation responsiveness - patch #1759
 [2026-08-14 21:55:45] Commit #1760: feat(staff): add visual status matrix for floor - patch #1760
+[2026-08-15 08:12:00] Commit #1761: fix(floor): optimize database context query for entity - patch #1761
