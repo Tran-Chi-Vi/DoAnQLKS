@@ -1789,3 +1789,4 @@
 [2026-08-17 17:30:35] Commit #1788: docs(payment): integrate VietQR payment hash calculation - patch #1788
 [2026-08-17 19:18:40] Commit #1789: perf(service): add search filter bar for data tables - patch #1789
 [2026-08-17 21:55:45] Commit #1790: test(staff): update bootstrap responsive breakpoint layout - patch #1790
+[2026-08-18 08:12:00] Commit #1791: chore(floor): add validation attribute for form inputs - patch #1791
