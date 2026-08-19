@@ -1824,3 +1824,4 @@
 [2026-08-19 15:25:05] Feature Commit #8: style(ui): polish checkout button gradients and FontAwesome icons
 [2026-08-19 16:10:40] Feature Commit #9: feat(booking): add direct link to online checkout from booking details
 [2026-08-19 17:05:15] Feature Commit #10: perf(vnpay): optimize string builder concatenation in query generator
+[2026-08-19 18:20:00] Feature Commit #11: test(vnpay): add mock test for SHA512 hash calculation
