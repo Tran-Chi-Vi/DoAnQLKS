@@ -1817,3 +1817,4 @@
 [2026-08-19 08:10:12] Feature Commit #1: feat(online-payment): add VnPayLibrary helper class for secure hash compute
 [2026-08-19 09:20:45] Feature Commit #2: feat(checkout): implement OnlinePaymentController with VietQR payload
 [2026-08-19 10:35:10] Feature Commit #3: style(payment): design glassmorphism checkout card view for VNPay
+[2026-08-19 11:40:22] Feature Commit #4: refactor(payment): integrate VietQR image generator URL API
