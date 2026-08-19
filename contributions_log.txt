@@ -1802,3 +1802,4 @@
 [2026-08-19 08:15:20] Today Commit #1: feat(auth): add remember me checkbox and session timeout handler
 [2026-08-19 09:30:45] Today Commit #2: style(ui): align table action buttons with rounded-pill badges
 [2026-08-19 10:45:10] Today Commit #3: refactor(services): enhance EmailService with async SMTP client
+[2026-08-19 11:50:33] Today Commit #4: docs(readme): add hotel management setup and database migration guide
