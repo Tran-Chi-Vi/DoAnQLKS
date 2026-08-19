@@ -1807,3 +1807,4 @@
 [2026-08-19 14:25:50] Today Commit #6: fix(bookings): correct checkout date validation logic
 [2026-08-19 15:40:12] Today Commit #7: style(css): adjust font family to Plus Jakarta Sans for modern typography
 [2026-08-19 16:50:40] Today Commit #8: feat(chatbot): expand AI Concierge keyword dictionary for room inquiry
+[2026-08-19 18:05:05] Today Commit #9: refactor(controllers): clean up unused ViewBag properties in TongQuanController
