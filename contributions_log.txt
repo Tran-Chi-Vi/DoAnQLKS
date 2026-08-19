@@ -1828,3 +1828,4 @@
 [2026-08-19 19:15:22] Feature Commit #12: style(layout): refine online payment responsiveness on mobile viewports
 [2026-08-19 20:05:44] Feature Commit #13: refactor(routing): add friendly route mapping for OnlinePayment actions
 [2026-08-19 20:45:10] Feature Commit #14: feat(notifications): trigger instant alert upon payment callback success
+[2026-08-19 21:15:33] Feature Commit #15: docs(api): update hotel reservation payment endpoints specification
