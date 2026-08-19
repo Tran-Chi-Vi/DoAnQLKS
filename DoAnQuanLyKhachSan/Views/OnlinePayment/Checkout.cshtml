@@ -1,0 +1,46 @@
+@model DoAnQuanLyKhachSan.Models.Booking
+
+@{
+    ViewBag.Title = "Thanh Toán Đặt Phòng Trực Tuyến";
+    ViewBag.ActiveTab = "Bookings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <div class="text-center mb-4">
+                <h3 class="fw-bold text-primary">Cổng Thanh Toán Online Khách Sạn</h3>
+                <p class="text-muted">Chọn phương thức thanh toán tiền cọc hoặc tổng tiền hóa đơn cho Mã Đặt Phòng #@Model.BookingId</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- VietQR Payment Method -->
+                <div class="col-md-6 text-center border-end">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-qrcode text-primary me-2"></i>Quét Mã VietQR Nhanh</h5>
+                    <img src="@ViewBag.QrUrl" class="img-fluid rounded-3 border p-2 mb-3 shadow-sm" style="max-width: 240px;" alt="VietQR Payment" />
+                    <div class="bg-light p-2 rounded-3 text-start small">
+                        <div><strong>Ngân hàng:</strong> MBBank</div>
+                        <div><strong>Số TK:</strong> 0388888888</div>
+                        <div><strong>Chủ TK:</strong> KHACH SAN LUXURY</div>
+                        <div><strong>Số tiền:</strong> <span class="text-danger fw-bold">@string.Format("{0:N0}", ViewBag.Amount) VNĐ</span></div>
+                        <div><strong>Nội dung:</strong> <span class="text-primary fw-bold">DATPHONG@(Model.BookingId)</span></div>
+                    </div>
+                </div>
+
+                <!-- VNPay Payment Method -->
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-credit-card text-success me-2"></i>Cổng VNPay Gateway</h5>
+                    <p class="text-muted small">Thanh toán an toàn qua Thẻ ATM nội địa, Thẻ Visa/Mastercard hoặc ứng dụng Mobile Banking.</p>
+                    
+                    @using (Html.BeginForm("CreateVnPayUrl", "OnlinePayment", new { bookingId = Model.BookingId }, FormMethod.Post))
+                    {
+                        <button type="submit" class="btn btn-success btn-lg w-100 rounded-pill shadow-sm py-3 fw-bold">
+                            <i class="fa-solid fa-shield-halved me-2"></i> Thanh Toán Qua VNPay
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
