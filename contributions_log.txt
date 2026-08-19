@@ -1805,3 +1805,4 @@
 [2026-08-19 11:50:33] Today Commit #4: docs(readme): add hotel management setup and database migration guide
 [2026-08-19 13:10:15] Today Commit #5: feat(vnpay): update vnp_TxnRef generator and hash checksum validator
 [2026-08-19 14:25:50] Today Commit #6: fix(bookings): correct checkout date validation logic
+[2026-08-19 15:40:12] Today Commit #7: style(css): adjust font family to Plus Jakarta Sans for modern typography
