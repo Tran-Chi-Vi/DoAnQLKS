@@ -1820,3 +1820,4 @@
 [2026-08-19 11:40:22] Feature Commit #4: refactor(payment): integrate VietQR image generator URL API
 [2026-08-19 12:50:18] Feature Commit #5: feat(callback): add PaymentCallback action view for success notification
 [2026-08-19 13:30:55] Feature Commit #6: docs(payment): document VNPay sandbox parameters and IPN callback flow
+[2026-08-19 14:15:30] Feature Commit #7: fix(checkout): ensure decimal formatting for VietQR amount field
