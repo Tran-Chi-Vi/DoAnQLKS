@@ -1821,3 +1821,4 @@
 [2026-08-19 12:50:18] Feature Commit #5: feat(callback): add PaymentCallback action view for success notification
 [2026-08-19 13:30:55] Feature Commit #6: docs(payment): document VNPay sandbox parameters and IPN callback flow
 [2026-08-19 14:15:30] Feature Commit #7: fix(checkout): ensure decimal formatting for VietQR amount field
+[2026-08-19 15:25:05] Feature Commit #8: style(ui): polish checkout button gradients and FontAwesome icons
