@@ -1840,3 +1840,4 @@
 [2026-09-21 11:50:20] Commit: feat(dashboard): add monthly room occupancy percentage query
 [2026-09-21 13:10:05] Commit: fix(customers): resolve phone number formatting validation rule
 [2026-09-21 14:35:40] Commit: style(services): add fontawesome icons to hotel amenity lists
+[2026-09-21 15:45:15] Commit: refactor(staffs): streamline role permission check helper method
