@@ -1845,3 +1845,4 @@
 [2026-09-21 18:05:25] Commit: style(ui): refine dark theme background contrast for sidebar items
 [2026-09-21 19:20:00] Commit: feat(chatbot): expand hotel policy inquiry responses in AI engine
 [2026-09-21 20:30:35] Commit: fix(payment): validate checksum parameters in VNPay IPN callback
+[2026-09-21 21:15:10] Commit: perf(db): add entity framework navigation property eager loading
