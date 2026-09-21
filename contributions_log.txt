@@ -1844,3 +1844,4 @@
 [2026-09-21 16:50:50] Commit: feat(floors): add room count summary per floor in overview card
 [2026-09-21 18:05:25] Commit: style(ui): refine dark theme background contrast for sidebar items
 [2026-09-21 19:20:00] Commit: feat(chatbot): expand hotel policy inquiry responses in AI engine
+[2026-09-21 20:30:35] Commit: fix(payment): validate checksum parameters in VNPay IPN callback
