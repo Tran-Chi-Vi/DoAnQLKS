@@ -1846,3 +1846,4 @@
 [2026-09-21 19:20:00] Commit: feat(chatbot): expand hotel policy inquiry responses in AI engine
 [2026-09-21 20:30:35] Commit: fix(payment): validate checksum parameters in VNPay IPN callback
 [2026-09-21 21:15:10] Commit: perf(db): add entity framework navigation property eager loading
+[2026-09-21 22:10:45] Commit: docs(readme): add installation guide and environment configurations
