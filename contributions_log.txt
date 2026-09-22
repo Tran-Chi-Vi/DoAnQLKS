@@ -1861,3 +1861,4 @@
 [2026-09-22 13:15:20] Commit: refactor(views): modernize modal confirmation dialog markup
 [2026-09-22 14:00:35] Commit: fix(customers): handle empty email address gracefully in edit profile
 [2026-09-22 14:40:10] Commit: style(layout): fine-tune responsive padding for tablet screens
+[2026-09-22 15:20:45] Commit: feat(vnpay): add transaction logging for online deposit callbacks
