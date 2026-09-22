@@ -1855,3 +1855,4 @@
 [2026-09-22 09:12:15] Commit: fix(bookings): prevent overlapping date range reservations for same room
 [2026-09-22 09:50:30] Commit: feat(dashboard): add quick room status toggle action in summary card
 [2026-09-22 10:25:05] Commit: style(ui): update status pill border radius and subtle border contrast
+[2026-09-22 11:05:40] Commit: perf(db): optimize floor room count query with aggregate projection
