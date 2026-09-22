@@ -1866,3 +1866,4 @@
 [2026-09-22 16:45:30] Commit: fix(staffs): validate phone number length and numeric format
 [2026-09-22 17:25:55] Commit: style(tables): enhance zebra striping and row hover effects
 [2026-09-22 18:10:20] Commit: feat(chatbot): support multilingual greetings in concierge responses
+[2026-09-22 18:55:40] Commit: perf(assets): preload plus jakarta sans webfont for faster rendering
