@@ -1852,3 +1852,4 @@
 [2026-09-22 07:15:10] Commit: feat(auth): add remember password session caching mechanism
 [2026-09-22 07:55:22] Commit: style(css): adjust card elevation shadow on hover interaction
 [2026-09-22 08:30:45] Commit: refactor(controllers): clean up parameter binding in RoomsController
+[2026-09-22 09:12:15] Commit: fix(bookings): prevent overlapping date range reservations for same room
