@@ -1863,3 +1863,4 @@
 [2026-09-22 14:40:10] Commit: style(layout): fine-tune responsive padding for tablet screens
 [2026-09-22 15:20:45] Commit: feat(vnpay): add transaction logging for online deposit callbacks
 [2026-09-22 16:05:15] Commit: refactor(models): add display name data annotations for customer fields
+[2026-09-22 16:45:30] Commit: fix(staffs): validate phone number length and numeric format
