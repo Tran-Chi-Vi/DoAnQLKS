@@ -1858,3 +1858,4 @@
 [2026-09-22 11:05:40] Commit: perf(db): optimize floor room count query with aggregate projection
 [2026-09-22 11:45:12] Commit: docs(readme): update system requirements and dependency packages
 [2026-09-22 12:30:50] Commit: feat(services): implement hotel service price calculation helper
+[2026-09-22 13:15:20] Commit: refactor(views): modernize modal confirmation dialog markup
