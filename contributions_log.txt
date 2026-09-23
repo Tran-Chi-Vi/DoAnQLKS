@@ -1882,3 +1882,4 @@
 [2026-09-23 14:40:18] Commit: style(ui): polish toast alert animation and icon spacing
 [2026-09-23 16:05:55] Commit: refactor(controllers): streamline action filters in TongQuanController
 [2026-09-23 17:30:10] Commit: feat(chatbot): add FAQ responses for early check-in requests
+[2026-09-23 18:50:42] Commit: style(tables): improve mobile responsive scrolling for booking table
